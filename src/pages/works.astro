@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Works | kakiのホームページ">
+	<h1>制作物</h1>
+
+	<ul>
+		<li>
+			<strong>このホームページ</strong> — Astroで作りました
+		</li>
+		<li>
+			<strong>おえかき</strong>
+                <img src="/images/oekaki2.png" alt="ポッチャマ" class="works-png" />
+            <p> ↑ コンリテの授業で作ったポッチャマです</p>
+		</li>
+	</ul>
+</Layout>
+
+<style>
+    .works-png {
+		display: block;
+		width: 240px;
+		height: auto;
+		margin-top: 1rem;
+	}
+</style>
